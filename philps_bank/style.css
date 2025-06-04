@@ -1,0 +1,96 @@
+:root {
+  --color-primary: #50e4c1;
+  --color-primary-dark: #0ed869;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Quattrocento", serif;
+  font-weight: 300;
+}
+.background-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+    url(./Images/pexels-cottonbro-studio-4101143.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* height: 100dvh; */
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5.6rem 0;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2.5rem 6rem;
+}
+.btn-main {
+  margin-left: 100px;
+}
+.logo {
+  margin-bottom: 3rem;
+}
+.logo-img {
+  height: 12rem;
+  width: auto;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-text-heading {
+  font-size: 6.8rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 7.5rem;
+}
+.hero-text-para {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.btn {
+  background-color: var(--color-primary);
+  border: none;
+  text-transform: capitalize;
+  padding: 2.5rem 6rem;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 2rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.feature-in{
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.featured-image-box{
+  padding: 2.4rem 0;
+}
